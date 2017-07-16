@@ -1,0 +1,31 @@
+{
+  "name": "rss-to-jekyll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnjones4/rss-to-jekyll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnjones4/rss-to-jekyll/issues"
+  },
+  "homepage": "https://github.com/johnjones4/rss-to-jekyll#readme",
+  "dependencies": {
+    "feedparser": "^2.2.1",
+    "fs-extra": "^4.0.0",
+    "html-to-text": "^3.3.0",
+    "minimist": "^1.2.0",
+    "request": "^2.81.0",
+    "slug": "^0.9.1",
+    "yamljs": "^0.3.0"
+  },
+  "bin": {
+    "rss-to-jekyll": "bin.js"
+  }
+}
